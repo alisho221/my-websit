@@ -31,9 +31,10 @@ h2{
     color: rgb(7, 194, 246);
 }
 table{
-     border: solid 8px rgb(0, 128, 255);
+     border: 8px rgb(255, 0, 0);
      margin-right: 10px;
-     size: 60px;
+     size: 70px;
+    
      
 }
 u{
@@ -42,11 +43,15 @@ u{
     
 }
 td{
-   font-size:10px;
+    text-align: center;
+  font-size: 10px;
+ margin-left: 200em;
   
 }
 tr{
-font-size: larger;    
+text-align: center;
+    font-size: 10px;
+    margin-right: 200em;    
 }
 #img{
     margin-right: 50px;
