@@ -1,9 +1,6 @@
 
 body{
-background-image:url(photo_2026-04-05_09-45-09.jpg) ;    
- background-size: cover;
-  background-position: center;
-  position: relative;
+background-color: rgb(129, 129, 129);
 }
 body::before{
  background-color: rgba(0, 0, 0, 0.4);
