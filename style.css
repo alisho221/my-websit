@@ -1,0 +1,82 @@
+
+body{
+background-image:url(photo_2026-04-05_09-45-09.jpg) ;    
+ background-size: cover;
+  background-position: center;
+  position: relative;
+}
+body::before{
+ background-color: rgba(0, 0, 0, 0.4);
+}
+a{
+     color: rgb(250, 0, 0);
+     font-size: x-large;
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+}
+a:hover{
+    background-color:  rgb(103, 103, 103);
+   font-size: xx-large;
+
+}
+
+
+h1{
+    font-family: Impact;
+    border-style: solid;
+    border-radius: 9px;
+    text-shadow: 1px 1px 5px rgb(90, 160, 231);
+    margin: 0px ;
+}
+h2{
+    font-family: Times New Roman;
+    font-size: 1.5em;
+    color: rgb(7, 194, 246);
+}
+table{
+     border: solid 8px rgb(0, 128, 255);
+     margin-right: 300px;
+    
+     
+}
+u{
+    border: 0.5px dashed rgb(0, 0, 0);
+    border-radius: 8px;
+    
+}
+td{
+    border: 5px solid rgb(0, 0, 255);
+  
+}
+tr{
+     border: 5px solid rgb(48, 2, 255);
+    
+}
+#img{
+    margin-right: 50px;
+}
+
+
+span{
+    background-color: black;
+}
+.navbar ul{
+    list-style-type:none  ;
+    background-color: rgb(76, 75, 75);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(253, 254, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(35, 32, 32);
+}
+.navbar li{
+    float: left;
+}
