@@ -32,8 +32,8 @@ h2{
 }
 table{
      border: solid 8px rgb(0, 128, 255);
-     margin-right: 30px;
-    
+     margin-right: 10px;
+     size: 60px;
      
 }
 u{
@@ -42,12 +42,11 @@ u{
     
 }
 td{
-    border: 5px solid rgb(0, 0, 255);
+   font-size:10px;
   
 }
 tr{
-     border: 5px solid rgb(48, 2, 255);
-    
+font-size: larger;    
 }
 #img{
     margin-right: 50px;
