@@ -1,9 +1,23 @@
-
-body{
-background-color: rgb(129, 129, 129);
+@media (max-width:768px){
+img{
+    width:100px;
+    height: 100px;
 }
+}
+body{
+height: 100px; 
+
+    background-image:url(photo_2026-04-05_09-45-09.jpg) ;
+background-position: center;
+background-repeat:no-repeat ;
+background-size: cover;
+background-attachment: fixed;
+max-height: 100vh;
+
+}
+
 body::before{
- background-color: rgba(0, 0, 0, 0.4);
+ background-color: rgba(142, 142, 142, 0.4);
 }
 a{
      color: rgb(250, 0, 0);
@@ -22,18 +36,20 @@ h1{
     font-family: Impact;
     border-style: solid;
     border-radius: 9px;
-    text-shadow: 1px 1px 5px rgb(90, 160, 231);
+    text-shadow: 1px 1px 5px rgb(148, 192, 236);
     margin: 0px ;
+    padding: 15px;
 }
 h2{
     font-family: Times New Roman;
-    font-size: 1.5em;
-    color: rgb(7, 194, 246);
+    font-size: 2em;
+    color: rgb(7, 234, 246);
 }
 table{
-     border: 8px rgb(255, 0, 0);
+     border-style:solid;
      margin-right: 10px;
      size: 70px;
+     
     
      
 }
@@ -43,18 +59,14 @@ u{
     
 }
 td{
-    text-align: center;
-  font-size: 10px;
+ text-align: center;
+  font-size :10px;;
  margin-left: 200em;
-  
 }
 tr{
-text-align: center;
-    font-size: 10px;
-    margin-right: 200em;    
-}
-#img{
-    margin-right: 50px;
+  text-align: center;
+    font-size:larger;
+    margin-right: 200em;
 }
 
 
@@ -63,20 +75,22 @@ span{
 }
 .navbar ul{
     list-style-type:none  ;
-    background-color: rgb(76, 75, 75);
+    background-color: rgb(36, 34, 34);
     padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+    margin: 1px;
+    position:relative ;
+    overflow:auto;
+  
 }
 .navbar a{
-    color: rgb(253, 254, 255);
+    color: rgb(2, 157, 204);
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     display: block;
-    text-align: center;
+    text-align:right;
 }
 .navbar a:hover{
-    background-color: rgb(35, 32, 32);
+    background-color: rgb(123, 47, 139);
 }
 .navbar li{
     float: left;
