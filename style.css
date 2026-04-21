@@ -7,12 +7,7 @@ img{
 body{
 height: 100px; 
 
-    background-image:url(photo_2026-04-05_09-45-09.jpg) ;
-background-position: center;
-background-repeat:no-repeat ;
-background-size: cover;
-background-attachment: fixed;
-max-height: 100vh;
+ background-color: rgb(149, 253, 213);
 
 }
 
@@ -33,12 +28,8 @@ a:hover{
 
 
 h1{
-    font-family: Impact;
-    border-style: solid;
-    border-radius: 9px;
-    text-shadow: 1px 1px 5px rgb(148, 192, 236);
-    margin: 0px ;
-    padding: 15px;
+ color: rgb(0, 0, 0);
+  font-size: x-large;
 }
 h2{
     font-family: Times New Roman;
@@ -94,4 +85,15 @@ span{
 }
 .navbar li{
     float: left;
+}
+.container{
+    height:100vh ;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+     font-size: 2em;
+}
+.form-box{
+    text-align: center;
+    size: 10px;
 }
